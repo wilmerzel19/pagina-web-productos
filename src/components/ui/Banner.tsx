@@ -17,7 +17,7 @@ const Banner: React.FC<BannerProps> = ({
   subtitle,
   ctaText,
   ctaLink = '/store',
-  backgroundImage = 'https://images.pexels.com/photos/1070360/pexels-photo-1070360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  backgroundImage = 'https://www.instatelcr.com/wp-content/uploads/2019/12/Portones-El%C3%A9ctricos.jpg',
   overlay = true,
   height = 'large',
   position = 'center',

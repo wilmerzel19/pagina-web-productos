@@ -64,7 +64,7 @@ const ProductDetailPage: React.FC = () => {
             className="inline-flex items-center text-amber-700 hover:text-amber-800"
           >
             <ArrowLeft size={16} className="mr-2" />
-            Back to Store
+          Volver a la tienda
           </Link>
         </div>
       </div>
@@ -78,7 +78,7 @@ const ProductDetailPage: React.FC = () => {
         className="inline-flex items-center text-amber-700 hover:text-amber-800 mb-8"
       >
         <ArrowLeft size={16} className="mr-2" />
-        Back to Store
+    Volver a la tienda
       </Link>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

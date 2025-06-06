@@ -47,16 +47,16 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Categories</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/store?category=jewelry" className="hover:text-amber-300 transition-colors">Jewelry</Link>
+                <Link to="/store?category=jewelry" className="hover:text-amber-300 transition-colors">Portones Electricos</Link>
               </li>
               <li>
-                <Link to="/store?category=pottery" className="hover:text-amber-300 transition-colors">Pottery</Link>
+                <Link to="/store?category=pottery" className="hover:text-amber-300 transition-colors">Portones Electricos</Link>
               </li>
               <li>
-                <Link to="/store?category=textiles" className="hover:text-amber-300 transition-colors">Textiles</Link>
+                <Link to="/store?category=textiles" className="hover:text-amber-300 transition-colors">Portones Electricos</Link>
               </li>
               <li>
-                <Link to="/store?category=woodwork" className="hover:text-amber-300 transition-colors">Woodwork</Link>
+                <Link to="/store?category=woodwork" className="hover:text-amber-300 transition-colors">Portones Electricos</Link>
               </li>
             </ul>
           </div>

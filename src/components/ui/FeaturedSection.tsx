@@ -28,8 +28,8 @@ const FeaturedSection: React.FC = () => {
 
   if (loading) {
     return (
-      <section className="container mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Featured Products</h2>
+      <section className="container mx-auto px-4 py-12"> //spanish
+        <h2 className="text-3xl font-bold text-center mb-8"> Productos Destacados</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[...Array(4)].map((_, index) => (
             <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md animate-pulse">

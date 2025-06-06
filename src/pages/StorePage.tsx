@@ -79,10 +79,11 @@ const StorePage: React.FC = () => {
   return (
     <div>
       <Banner 
-        title="Our Products"
-        subtitle="Browse our collection of handcrafted products"
+      //spanish
+        title="Bienvenido a nuestra tienda"
+        subtitle=" Descubre nuestros portones eléctricos de alta calidad"
         height="medium"
-        backgroundImage="https://images.pexels.com/photos/6707628/pexels-photo-6707628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        backgroundImage="https://th.bing.com/th/id/OIP.PAqlzCW3s21qj15M-YLedwHaEK?w=805&h=453&rs=1&pid=ImgDetMain"
       />
       
       <div className="container mx-auto px-4 py-12">

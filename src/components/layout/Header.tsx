@@ -50,22 +50,22 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-amber-800">
-          Wyfer web Productos
+          <img src="https://irp-cdn.multiscreensite.com/6e2add9c/dms3rep/multi/cormetal-s-a-logo.png" alt="CORMETAL S.A." className="h-12" />
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link to="/" className="text-amber-900 hover:text-amber-700 font-medium">
+          <Link to="/" className="text-white hover:text-amber-700 font-medium">
             Home
           </Link>
-          <Link to="/store" className="text-amber-900 hover:text-amber-700 font-medium">
-            Store
+          <Link to="/store" className="text-white hover:text-amber-700 font-medium">
+            Tienda
           </Link>
-          <Link to="/contact" className="text-amber-900 hover:text-amber-700 font-medium">
-            Contact
+          <Link to="/contact" className="text-white hover:text-amber-700 font-medium">
+            Contactanos
           </Link>
           {isAdmin && (
-            <Link to="/admin" className="text-amber-900 hover:text-amber-700 font-medium">
+            <Link to="/admin" className="text-white hover:text-amber-700 font-medium">
               Admin
             </Link>
           )}

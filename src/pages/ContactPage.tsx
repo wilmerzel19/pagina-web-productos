@@ -48,8 +48,9 @@ const ContactPage: React.FC = () => {
   return (
     <div>
       <Banner 
-        title="Contact Us"
-        subtitle="We'd love to hear from you! Drop us a message and we'll get back to you."
+      //spanish
+        title="Contáctanos"
+        subtitle="Estamos aquí para ayudarte con cualquier pregunta o consulta"
         height="medium"
         backgroundImage="https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
@@ -57,10 +58,9 @@ const ContactPage: React.FC = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
+            <h2 className="text-3xl font-bold mb-6"> Contáctanos</h2>
             <p className="text-gray-700 mb-8">
-              Have questions about our products? Want to place a custom order? Or just want to say hello?
-              Fill out the form and we'll get back to you as soon as possible.
+            ¿Tienes preguntas sobre nuestros productos? ¿Quieres hacer un pedido personalizado? ¿O solo quieres decir hola? Llena el formulario y te responderemos lo antes posible.
             </p>
             
             <div className="space-y-6">
@@ -71,7 +71,7 @@ const ContactPage: React.FC = () => {
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
                   <a href="mailto:contact@artisancrafts.com" className="text-amber-700 hover:text-amber-800">
-                    contact@artisancrafts.com
+                   cormetal.sa.nicaragua@gmail.com
                   </a>
                 </div>
               </div>
@@ -95,8 +95,9 @@ const ContactPage: React.FC = () => {
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-1">Address</h3>
                   <address className="not-italic text-gray-700">
-                    123 Artisan Street<br />
-                    Craft City, CC 12345
+                    Complejo Policial, Boris Vega, 300 m al Este, 100 m al Sur, 50 m al Este.
+
+
                   </address>
                 </div>
               </div>
